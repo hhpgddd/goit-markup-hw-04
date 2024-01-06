@@ -283,7 +283,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.icon-link:hover
+.icon-link:hover,
 .icon-link:focus {
     background-color: #404BBF;
 }
@@ -413,6 +413,8 @@ footer {
 .footer-container {
     display: flex;
     align-items: baseline;
+}
+.footer-logo {
     margin-right: 120px;
 }
 .footer-text {
@@ -422,7 +424,7 @@ footer {
     letter-spacing: 0.02em;
     max-width: 264px;
 }
-.footer-icon-text {
+.footer-social {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
