@@ -283,7 +283,8 @@ body {
     background-color: #FFFFFF;
 }
 
-.team-icon-con:hover {
+.icon-lick:hover
+.icon-lick:focus {
     background-color: #404BBF;
 }
 .icon-list {
@@ -291,9 +292,22 @@ body {
     gap: 24px;
     justify-content: center;
 }
-.team-icon {
+.icon-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-li-icon {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.team-icon {
+    fill: #f4f4fd;
 }
 .team-title {
     color:#2e2f42;
